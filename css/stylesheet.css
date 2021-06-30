@@ -84,3 +84,32 @@ header ul li {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.time span {
+    color: #fff;
+    background-color: #000;
+    padding: 4px 6px;
+    font-size: 0.8rem;
+}
+
+.NEWS-lineup p {
+    margin-top: 18px;
+}
+
+.ABOUT {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ABOUT-img {
+    width: 60%;
+}
+
+.ABOUT-img img {
+    width: 100%;
+}
+
+.ABOUT-text {
+    width: 40%;
+    padding: 15% 4% 0 4%;
+}
