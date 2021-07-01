@@ -28,7 +28,6 @@ h2 span {
 }
 
 h3 {
-    font-weight: normal;
     font-size: 0.8rem;
 }
 
@@ -37,17 +36,27 @@ h3 {
 
 header {
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
     height: 70px;
+    align-items: center;
+}
+
+.header-wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .logo {
-    margin-left: 80px;
+    width: 100px;
 }
 
 .logo img {
-    width: 150px;
     max-width: 100%;
     height: auto;
 }
@@ -65,9 +74,6 @@ header ul li {
 .contact {
     background-color: #000;
     padding: 23px 40px;
-}
-
-.contact a {
     color: #fff;
 }
 
@@ -117,6 +123,11 @@ h2:after {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.NEWS-lineup ul li:not(:first-child) {
+    padding-left: 20px;
+    border-left: solid 1px #000;
 }
 
 .time span {
@@ -194,7 +205,7 @@ h2:after {
 
 .content h3::before {
     content: "ー";
-    padding-right: 5px;
+    padding-right: 8px;
 }
 
 
@@ -220,14 +231,21 @@ dl {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    font-size: 0.9rem;
 }
 
 dt {
-    width: 30%;
+    width: 20%;
+    margin-bottom: 8px;
 }
 
 dd {
-    width: 70%;
+    width: 80%;
+    margin-bottom: 8px;
+}
+
+.COMPANY-add {
+    margin-left: 20%;
 }
 
 .COMPANY-img {
@@ -252,8 +270,12 @@ footer {
 
 .footer-wrap {
     width: 1000px;
-    height: 300px;
+    height: 210px;
     margin: 0 auto;
+}
+
+.footer-wrap p {
+    font-size: 0.8rem;
 }
 
 .footer-2column {
