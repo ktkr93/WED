@@ -28,8 +28,8 @@ h2 span {
 }
 
 h3 {
-    /* font-weight: normal; */
-    font-size: 1rem;
+    font-weight: normal;
+    font-size: 0.8rem;
 }
 
 
@@ -190,4 +190,83 @@ h2:after {
 .content img {
     width: 85%;
     margin-top: 10px;
+}
+
+.content h3::before {
+    content: "ー";
+    padding-right: 5px;
+}
+
+
+/* COMPANY */
+
+.COMPANY {
+    width: 1000px;
+    margin: 70px auto;
+    position: relative;
+}
+
+.text-wrap {
+    width: 55%;
+    padding: 80px 70px 80px 40px;
+    background-color: #fff;
+}
+
+.title dl {
+    margin-top: 70px;
+}
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+dt {
+    width: 30%;
+}
+
+dd {
+    width: 70%;
+}
+
+.COMPANY-img {
+    width: 500px;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+}
+
+.COMPANY-img img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #fff;
+}
+
+.footer-wrap {
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.footer-2column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.footer-logo {
+    width: 150px;
+}
+
+.footer-logo img {
+    width: 100%;
 }
