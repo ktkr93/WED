@@ -39,11 +39,15 @@ header {
     justify-content: space-between;
     height: 70px;
     align-items: center;
+    margin: 0 auto;
 }
 
 .header-wrap {
-    width: 1000px;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
     margin: 0 auto;
+    width: 100%;
 }
 
 .header-inner {
@@ -73,8 +77,13 @@ header ul li {
 
 .contact {
     background-color: #000;
-    padding: 23px 40px;
     color: #fff;
+    display: inline-block;
+    width: 200px;
+    height: 100%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 0.75rem;
 }
 
 .MV-TOP {
