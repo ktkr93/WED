@@ -31,6 +31,10 @@ h3 {
     font-size: 0.8rem;
 }
 
+p {
+    line-height: 2.2;
+}
+
 
 /* HEADER */
 
@@ -92,6 +96,8 @@ header ul li {
 
 .MV-TOP img {
     width: 100%;
+    height: calc(100vh - 70px);
+    object-fit: cover;
 }
 
 
