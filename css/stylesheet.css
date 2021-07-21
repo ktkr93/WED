@@ -41,7 +41,7 @@ p {
 header {
     display: flex;
     justify-content: space-between;
-    height: 70px;
+    height: 80px;
     align-items: center;
     margin: 0 auto;
 }
@@ -86,7 +86,7 @@ header ul li {
     width: 200px;
     height: 100%;
     text-align: center;
-    line-height: 70px;
+    line-height: 80px;
     font-size: 0.75rem;
 }
 
